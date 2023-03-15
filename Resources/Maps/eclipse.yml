@@ -1,7 +1,7 @@
 meta:
   format: 3
-  name: DemoStation
-  author: Space-Wizards
+  name: Eclipse
+  author: 778b
   postmapinit: false
 tilemap:
   0: Space
@@ -100211,12 +100211,14 @@ entities:
 - uid: 13455
   type: SurveillanceCameraSecurity
   components:
-  - name: Warden room
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -67.5,-8.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraSecurity
+    id: Warden room
+    type: SurveillanceCamera
 - uid: 13456
   type: SurveillanceCameraSecurity
   components:
@@ -100228,15 +100230,18 @@ entities:
     type: Transform
   - setupAvailableNetworks:
     - SurveillanceCameraSecurity
+    id: Armory
     type: SurveillanceCamera
 - uid: 13457
   type: SurveillanceCameraSecurity
   components:
-  - name: HoS room
-    type: MetaData
   - pos: -63.5,-5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraSecurity
+    id: HoS room
+    type: SurveillanceCamera
 - uid: 13458
   type: SurveillanceCameraSecurity
   components:
@@ -100246,24 +100251,32 @@ entities:
     pos: -56.5,-3.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraSecurity
+    id: Entrance
+    type: SurveillanceCamera
 - uid: 13459
   type: SurveillanceCameraSecurity
   components:
-  - name: Brig
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: -56.5,-16.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraSecurity
+    id: Brig
+    type: SurveillanceCamera
 - uid: 13460
   type: SurveillanceCameraSecurity
   components:
-  - name: Perma Brig
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: -53.5,-22.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraSecurity
+    id: Prema Brig
+    type: SurveillanceCamera
 - uid: 13461
   type: CableApcExtension
   components:
@@ -100303,29 +100316,35 @@ entities:
 - uid: 13467
   type: SurveillanceCameraService
   components:
-  - name: Janitor
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -51.5,-9.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Janitor
+    type: SurveillanceCamera
 - uid: 13468
   type: SurveillanceCameraSecurity
   components:
-  - name: Detective
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -45.5,-6.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraSecurity
+    id: Detective
+    type: SurveillanceCamera
 - uid: 13469
   type: SurveillanceCameraGeneral
   components:
-  - name: Cargo-Brig hall
-    type: MetaData
   - pos: -56.5,-0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Cargo-Brig hall
+    type: SurveillanceCamera
 - uid: 13470
   type: CableApcExtension
   components:
@@ -100365,12 +100384,14 @@ entities:
 - uid: 13476
   type: SurveillanceCameraEngineering
   components:
-  - name: Gravity room
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -75.5,5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: Gravity room
+    type: SurveillanceCamera
 - uid: 13477
   type: SurveillanceCameraSupply
   components:
@@ -100417,80 +100438,98 @@ entities:
 - uid: 13482
   type: SurveillanceCameraCommand
   components:
-  - name: EVA
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -69.5,-4.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: EVA
+    type: SurveillanceCamera
 - uid: 13483
   type: SurveillanceCameraGeneral
   components:
-  - name: Gravity-Eva
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -70.5,1.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Gravity-Eva hall
+    type: SurveillanceCamera
 - uid: 13484
   type: SurveillanceCameraGeneral
   components:
-  - name: Tools-Library hall
-    type: MetaData
   - pos: -40.5,-0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Tools-Library hall
+    type: SurveillanceCamera
 - uid: 13485
   type: SurveillanceCameraService
   components:
-  - name: Library
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -33.5,7.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Library
+    type: SurveillanceCamera
 - uid: 13486
   type: SurveillanceCameraService
   components:
-  - name: Librarian room
-    type: MetaData
   - pos: -38.5,4.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Librarian room
+    type: SurveillanceCamera
 - uid: 13487
   type: SurveillanceCameraService
   components:
-  - name: Clown&Mime room
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: -26.5,1.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Clown&Mime room
+    type: SurveillanceCamera
 - uid: 13488
   type: SurveillanceCameraService
   components:
-  - name: Bar
-    type: MetaData
   - pos: -20.5,-0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Bar
+    type: SurveillanceCamera
 - uid: 13489
   type: SurveillanceCameraService
   components:
-  - name: Kitchen
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -11.5,7.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Kitchen
+    type: SurveillanceCamera
 - uid: 13490
   type: SurveillanceCameraService
   components:
-  - name: Bartender room
-    type: MetaData
   - pos: -19.5,8.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Bartender room
+    type: SurveillanceCamera
 - uid: 13491
   type: HospitalCurtainsOpen
   components:
@@ -100500,77 +100539,97 @@ entities:
 - uid: 13492
   type: SurveillanceCameraService
   components:
-  - name: Botany
-    type: MetaData
   - pos: -6.5,-0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Botany
+    type: SurveillanceCamera
 - uid: 13493
   type: SurveillanceCameraGeneral
   components:
-  - name: Bar-Medbay hall
-    type: MetaData
   - pos: -20.5,-4.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Bar-Medbay hall
+    type: SurveillanceCamera
 - uid: 13494
   type: SurveillanceCameraGeneral
   components:
   - pos: -5.5,-4.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Botany-Science hall
+    type: SurveillanceCamera
 - uid: 13495
   type: SurveillanceCameraScience
   components:
-  - name: Robotics
-    type: MetaData
   - pos: -3.5,-9.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraScience
+    id: Robotics
+    type: SurveillanceCamera
 - uid: 13496
   type: SurveillanceCameraScience
   components:
-  - name: Entrance
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: 0.5,-2.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraScience
+    id: Entrance
+    type: SurveillanceCamera
 - uid: 13497
   type: SurveillanceCameraScience
   components:
-  - name: R&D
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: 0.5,1.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraScience
+    id: R&D
+    type: SurveillanceCamera
 - uid: 13498
   type: SurveillanceCameraScience
   components:
-  - name: Xenolab
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: 9.5,5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraScience
+    id: Xenolab
+    type: SurveillanceCamera
 - uid: 13499
   type: SurveillanceCameraScience
   components:
-  - name: RD room
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: 10.5,-7.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraScience
+    id: RD room
+    type: SurveillanceCamera
 - uid: 13500
   type: SurveillanceCameraScience
   components:
-  - name: Anomaly lab
-    type: MetaData
   - pos: 4.5,-13.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraScience
+    id: Anomaly lab
+    type: SurveillanceCamera
 - uid: 13501
   type: SurveillanceCameraScience
   components:
@@ -100578,41 +100637,53 @@ entities:
     pos: 0.5,-9.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraScience
+    id: Staff room
+    type: SurveillanceCamera
 - uid: 13502
   type: SurveillanceCameraMedical
   components:
-  - name: Entrance
-    type: MetaData
   - pos: -15.5,-8.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Entrance
+    type: SurveillanceCamera
 - uid: 13503
   type: SurveillanceCameraMedical
   components:
-  - name: Morgue
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -12.5,-10.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Morgue
+    type: SurveillanceCamera
 - uid: 13504
   type: SurveillanceCameraMedical
   components:
-  - name: Emergency room
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -21.5,-11.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Emergency room
+    type: SurveillanceCamera
 - uid: 13505
   type: SurveillanceCameraMedical
   components:
-  - name: Chemistry
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -24.5,-8.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Chemistry
+    type: SurveillanceCamera
 - uid: 13506
   type: SignCryogenicsMed
   components:
@@ -100623,90 +100694,110 @@ entities:
 - uid: 13507
   type: SurveillanceCameraMedical
   components:
-  - name: Cryogenetic
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -29.5,-7.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Cryogenetic
+    type: SurveillanceCamera
 - uid: 13508
   type: SurveillanceCameraMedical
   components:
-  - name: Cloning
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -35.5,-10.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Cloning
+    type: SurveillanceCamera
 - uid: 13509
   type: SurveillanceCameraMedical
   components:
-  - name: Staff room
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -37.5,-10.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Staff room
+    type: SurveillanceCamera
 - uid: 13510
   type: SurveillanceCameraMedical
   components:
-  - name: CMO room
-    type: MetaData
   - pos: -39.5,-8.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: CMO room
+    type: SurveillanceCamera
 - uid: 13511
   type: SurveillanceCameraMedical
   components:
-  - name: Surgery
-    type: MetaData
   - pos: -36.5,-4.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraMedical
+    id: Surgery
+    type: SurveillanceCamera
 - uid: 13512
   type: SurveillanceCameraGeneral
   components:
-  - name: Tools
-    type: MetaData
   - pos: -46.5,-4.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Tools
+    type: SurveillanceCamera
 - uid: 13513
   type: SurveillanceCameraGeneral
   components:
-  - name: Game room
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -79.5,-7.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Game room
+    type: SurveillanceCamera
 - uid: 13514
   type: SurveillanceCameraGeneral
   components:
-  - name: Dorms
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: -81.5,3.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Droms
+    type: SurveillanceCamera
 - uid: 13515
   type: SurveillanceCameraSecurity
   components:
-  - name: Lawyer
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -86.5,-15.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraSecurity
+    id: Lawyer
+    type: SurveillanceCamera
 - uid: 13516
   type: SurveillanceCameraGeneral
   components:
-  - name: Evac 1
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -100.5,-17.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Evac 1
+    type: SurveillanceCamera
 - uid: 13517
   type: SurveillanceCameraGeneral
   components:
@@ -100716,59 +100807,75 @@ entities:
     pos: -88.5,-14.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Evac 2
+    type: SurveillanceCamera
 - uid: 13518
   type: SurveillanceCameraService
   components:
-  - name: HoP
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: -89.5,-5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: HoP
+    type: SurveillanceCamera
 - uid: 13519
   type: SurveillanceCameraService
   components:
-  - name: HoP room
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -92.5,-1.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: HoP room
+    type: SurveillanceCamera
 - uid: 13520
   type: SurveillanceCameraService
   components:
-  - name: Chapel
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -105.5,-2.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Chapel
+    type: SurveillanceCamera
 - uid: 13521
   type: SurveillanceCameraService
   components:
-  - name: Chaplain room
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -103.5,0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraService
+    id: Chaplain room
+    type: SurveillanceCamera
 - uid: 13522
   type: SurveillanceCameraCommand
   components:
-  - name: Dronebay
-    type: MetaData
   - pos: -118.5,5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: DroneBay
+    type: SurveillanceCamera
 - uid: 13523
   type: SurveillanceCameraCommand
   components:
-  - name: Camera routers
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -119.5,-4.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: Camera routers
+    type: SurveillanceCamera
 - uid: 13524
   type: SurveillanceCameraGeneral
   components:
@@ -100777,135 +100884,169 @@ entities:
   - pos: -111.5,-12.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Chapel hall
+    type: SurveillanceCamera
 - uid: 13525
   type: SurveillanceCameraGeneral
   components:
-  - name: Entrance
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -135.5,-12.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Dock 2
+    type: SurveillanceCamera
 - uid: 13526
   type: SurveillanceCameraGeneral
   components:
-  - name: Engineering entrance
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -147.5,-0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Engineering entrance
+    type: SurveillanceCamera
 - uid: 13527
   type: SurveillanceCameraEngineering
   components:
-  - name: Atmos staff room
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -151.5,3.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: Atmos staff room
+    type: SurveillanceCamera
 - uid: 13528
   type: SurveillanceCameraEngineering
   components:
-  - name: Engineers staff room
-    type: MetaData
   - pos: -151.5,-10.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: Engineers staff room
+    type: SurveillanceCamera
 - uid: 13529
   type: SurveillanceCameraEngineering
   components:
-  - name: Accumulator room
-    type: MetaData
   - pos: -164.5,-8.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: Accumulator room
+    type: SurveillanceCamera
 - uid: 13530
   type: SurveillanceCameraEngineering
   components:
-  - name: CE room
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -162.5,-10.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: CE room
+    type: SurveillanceCamera
 - uid: 13531
   type: SurveillanceCameraEngineering
   components:
-  - name: AME
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: -168.5,-6.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: AME
+    type: SurveillanceCamera
 - uid: 13532
   type: SurveillanceCameraEngineering
   components:
-  - name: Atmosia
-    type: MetaData
   - pos: -165.5,-1.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: Atmosia
+    type: SurveillanceCamera
 - uid: 13533
   type: SurveillanceCameraEngineering
   components:
-  - name: Entrance
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -153.5,-5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraEngineering
+    id: Entrance
+    type: SurveillanceCamera
 - uid: 13534
   type: SurveillanceCameraGeneral
   components:
-  - name: Docking
-    type: MetaData
   - pos: -135.5,5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Dock 1
+    type: SurveillanceCamera
 - uid: 13535
   type: SurveillanceCameraCommand
   components:
-  - name: Bridge entrance
-    type: MetaData
   - pos: -130.5,-3.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: Bridge entrance
+    type: SurveillanceCamera
 - uid: 13536
   type: SurveillanceCameraCommand
   components:
-  - name: Bridge
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: -136.5,-1.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: Bridge
+    type: SurveillanceCamera
 - uid: 13537
   type: SurveillanceCameraCommand
   components:
-  - name: Captain room
-    type: MetaData
   - pos: -131.5,-0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: Captain room
+    type: SurveillanceCamera
 - uid: 13538
   type: SurveillanceCameraCommand
   components:
-  - name: Storage
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: -131.5,-5.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: Storage
+    type: SurveillanceCamera
 - uid: 13539
   type: SurveillanceCameraGeneral
   components:
-  - name: Bridge hall
-    type: MetaData
   - rot: -1.5707963267948966 rad
     pos: -125.5,-1.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraGeneral
+    id: Bridge hall
+    type: SurveillanceCamera
 - uid: 13540
   type: SignalSwitch
   components:
@@ -101139,20 +101280,24 @@ entities:
 - uid: 13569
   type: SurveillanceCameraCommand
   components:
-  - name: AI room
-    type: MetaData
   - rot: 1.5707963267948966 rad
     pos: 38.5,0.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: AI room
+    type: SurveillanceCamera
 - uid: 13570
   type: SurveillanceCameraCommand
   components:
-  - name: Telecomms
-    type: MetaData
   - pos: 36.5,-14.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: Telecomms
+    type: SurveillanceCamera
 - uid: 13571
   type: ClosetEmergencyFilledRandom
   components:
@@ -101177,12 +101322,14 @@ entities:
 - uid: 13574
   type: SurveillanceCameraCommand
   components:
-  - name: AI SMES
-    type: MetaData
   - rot: 3.141592653589793 rad
     pos: 36.5,7.5
     parent: 1
     type: Transform
+  - setupAvailableNetworks:
+    - SurveillanceCameraCommand
+    id: AI SMES
+    type: SurveillanceCamera
 - uid: 13575
   type: WindoorCommandLocked
   components:
@@ -101778,4 +101925,13 @@ entities:
   - canCollide: False
     type: Physics
   - type: InsideEntityStorage
+- uid: 13658
+  type: Poweredlight
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -24.5,-7.5
+    parent: 1
+    type: Transform
+  - powerLoad: 0
+    type: ApcPowerReceiver
 ...
