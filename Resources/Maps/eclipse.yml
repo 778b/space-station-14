@@ -1,7 +1,7 @@
 meta:
   format: 3
-  name: Eclipse
-  author: 778b
+  name: DemoStation
+  author: Space-Wizards
   postmapinit: false
 tilemap:
   0: Space
@@ -119,7 +119,7 @@ entities:
   - chunks:
       0,0:
         ind: 0,0
-        tiles: GwAAABYAAAAWAAAAFgAAABYAAAAWAAAAXgAAABsAAAAZAAAAXgAAADMAAAAWAAAAFgAAADMAAABeAAAAXgAAABsAAAAWAAAAFgAAABYAAABRAAAAUQAAAF4AAAAbAAAAGQAAAF4AAAAzAAAAFgAAABYAAAAzAAAAXgAAAAAAAAAbAAAAFgAAABYAAAAWAAAAUQAAABsAAAAbAAAAGwAAABkAAABeAAAAMwAAADMAAAAzAAAAMwAAAF4AAAAAAAAAGwAAABYAAAAbAAAAGwAAAFEAAAAZAAAAGQAAABkAAAAZAAAAUQAAAF4AAAAbAAAAXgAAAF4AAABeAAAAAAAAAF4AAABPAAAAXgAAAF4AAABeAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAABeAAAAAAAAAAAAAABOAAAATgAAAE4AAABPAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAXgAAAAAAAAAAAAAATgAAAE4AAABOAAAAXgAAAF4AAABeAAAAXgAAAF4AAAAbAAAAXgAAABkAAAAbAAAAXgAAAF4AAAAAAAAAAAAAAF4AAABPAAAAXgAAAF4AAAAWAAACFgAAABYAAAMWAAAAFgAAAF4AAAAZAAAAGwAAAF4AAAAAAAAAAAAAAAAAAABOAAAATgAAAF4AAABeAAAAFgAAABYAAAAWAAAAFgAAABYAAAJeAAAAGQAAABsAAABeAAAAAAAAAAAAAAAAAAAAXgAAAF4AAABeAAAAXgAAABYAAAAWAAAAFgAAABYAAAAWAAADXgAAABsAAABeAAAAXgAAAF0AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAF0AAAAAAAAAAAAAAF4AAABeAAAAXgAAAF4AAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAXgAAAF4AAABeAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        tiles: GwAAABYAAAAWAAAAFgAAABYAAAAWAAAAXgAAABsAAAAZAAAAXgAAADMAAAAWAAAAFgAAADMAAABeAAAAXgAAABsAAAAWAAAAFgAAABYAAABRAAAAUQAAAF4AAAAbAAAAGQAAAF4AAAAzAAAAFgAAABYAAAAzAAAAXgAAAAAAAAAbAAAAFgAAABYAAAAWAAAAUQAAABsAAAAbAAAAGwAAABkAAABeAAAAMwAAADMAAAAzAAAAMwAAAF4AAAAAAAAAGwAAABYAAAAbAAAAGwAAAFEAAAAZAAAAGQAAABkAAAAZAAAAUQAAAF4AAAAbAAAAXgAAAF4AAABeAAAAAAAAAF4AAABPAAAAXgAAAF4AAABeAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAABeAAAAAAAAAAAAAABOAAAATgAAAE4AAABPAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAXgAAAAAAAAAAAAAATgAAAE4AAABOAAAAXgAAAF4AAAAWAAAAXgAAAF4AAABeAAAAFgAAAF4AAAAbAAAAXgAAAF4AAAAAAAAAAAAAAF4AAABPAAAAXgAAAF4AAAAWAAACFgAAABYAAANeAAAAFgAAABYAAAAWAAAAGwAAAF4AAAAAAAAAAAAAAAAAAABOAAAATgAAAF4AAABeAAAAFgAAABYAAAAWAAAAXgAAABYAAAIWAAAAFgAAABsAAABeAAAAAAAAAAAAAAAAAAAAXgAAAF4AAABeAAAAXgAAABYAAAAWAAAAFgAAAF4AAAAWAAADFgAAABYAAABeAAAAXgAAAF0AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAF0AAAAAAAAAAAAAAF4AAABeAAAAXgAAAF4AAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAXgAAAF4AAABeAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
       -1,0:
         ind: -1,0
         tiles: DAAAAEQAAAAlAAAAJQAAAF4AAABeAAAAXgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAbAAAAXgAAAAwAAABEAAAAJQAAACUAAAAlAAAAXgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAAGwAAAF4AAABEAAAARAAAACUAAAAlAAAAJQAAAF4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAABsAAABeAAAAXgAAAAwAAABeAAAAJQAAAF4AAABeAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAbAAAAXgAAAF4AAAAvAAAALwAAAC8AAAAvAAAANQAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAF4AAABeAAAALwAAAC8AAAAvAAAALwAAAF4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAABeAAAAXgAAAC8AAAAvAAAALwAAAC8AAAA1AAAALgAAABsAAAAbAAAAGwAAAC4AAAAbAAAAGwAAABsAAAAbAAAAXgAAAF4AAAAvAAAALwAAAC8AAAAvAAAAXgAAAF4AAABeAAAAXgAAAF4AAAA1AAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAATgAAAE4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAATgAAAE4AAABeAAAAXgAAAE4AAABOAAAATgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABOAAAATgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAAAAAABdAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAAAAAAAAAAAAAAAAAXQAAAAAAAABdAAAAAAAAAAAAAABdAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAAAAAAAAAAAAAAAAAXgAAAF0AAABeAAAAXgAAAF4AAAAAAAAAAAAAAAAAAAAAAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAF4AAABeAAAAXgAAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
@@ -323,7 +323,6 @@ entities:
           color: '#FFFF0089'
           id: space
         decals:
-          0: 5,10
           1: 14,1
       - node:
           color: '#D381C996'
@@ -371,8 +370,6 @@ entities:
           2008: 8,1
           2009: 8,2
           2010: 8,3
-          2027: 10,7
-          2028: 10,6
       - node:
           color: '#D381C996'
           id: BrickTileSteelLineW
@@ -410,15 +407,10 @@ entities:
           2012: 8,0
           2013: 8,1
           2014: 8,2
-          2029: 10,7
-          2030: 10,6
       - node:
           color: '#D4D4D496'
           id: Box
         decals:
-          124: 11,6
-          125: 11,7
-          126: 11,8
           127: 0,6
           128: 0,5
           129: 2,6
@@ -432,26 +424,6 @@ entities:
           130: 5,7
           2038: 5,3
           2043: 2,0
-      - node:
-          color: '#D4D4D496'
-          id: Delivery
-        decals:
-          131: 7,8
-          1939: 3,3
-          1948: -7,-7
-          2133: -20,-9
-          2144: -35,-5
-          2202: -59,-10
-          2230: -2,3
-          2231: -2,2
-          2267: -54,8
-          2302: -100,-10
-          2303: -89,-18
-          2304: -82,5
-          2305: -135,-3
-          2348: -52,-10
-          2349: -52,-11
-          2350: -50,-11
       - node:
           color: '#D4D4D496'
           id: StandClear
@@ -519,8 +491,6 @@ entities:
           1984: 1,-9
           1985: 5,-8
           1990: 5,-12
-          2035: 10,5
-          2040: 8,5
       - node:
           color: '#D381C996'
           id: BrickTileSteelLineN
@@ -583,8 +553,6 @@ entities:
           1980: 2,-9
           2019: 11,5
           2021: 4,5
-          2022: 7,5
-          2023: 9,5
           2044: 6,5
           2046: 5,5
       - node:
@@ -603,6 +571,25 @@ entities:
           1936: 5,0
           1989: 6,-12
           2020: 12,5
+      - node:
+          color: '#D4D4D496'
+          id: Delivery
+        decals:
+          1939: 3,3
+          1948: -7,-7
+          2133: -20,-9
+          2144: -35,-5
+          2202: -59,-10
+          2230: -2,3
+          2231: -2,2
+          2267: -54,8
+          2302: -100,-10
+          2303: -89,-18
+          2304: -82,5
+          2305: -135,-3
+          2348: -52,-10
+          2349: -52,-11
+          2350: -50,-11
       - node:
           angle: 1.5707963267948966 rad
           color: '#D4D4D496'
@@ -703,15 +690,6 @@ entities:
           2025: 12,4
       - node:
           color: '#D381C996'
-          id: BrickTileSteelEndN
-        decals:
-          1621: 38,1
-          1622: 34,1
-          1949: -6,-7
-          1996: 11,-12
-          2026: 10,8
-      - node:
-          color: '#D381C996'
           id: BrickTileSteelInnerSw
         decals:
           46: -4,-6
@@ -769,36 +747,6 @@ entities:
           1982: 0,-9
           2033: 11,4
           2041: 8,4
-      - node:
-          color: '#D381C996'
-          id: BrickTileSteelInnerNw
-        decals:
-          61: 0,-4
-          90: 11,-14
-          101: 8,-3
-          102: 5,-3
-          1528: 5,-12
-          1532: 13,-6
-          1539: 13,-4
-          1557: 30,-4
-          1559: 31,-3
-          1560: 41,-3
-          1602: 31,-7
-          1603: 41,-7
-          1614: 34,-1
-          1627: 38,0
-          1662: 33,4
-          1677: 37,-9
-          1834: 34,-4
-          1835: 36,-4
-          1836: 38,-4
-          1837: 40,-4
-          1963: -4,-9
-          1983: 1,-9
-          1986: 5,-8
-          1987: 4,-9
-          2034: 10,5
-          2039: 8,5
       - node:
           color: '#D4D4D496'
           id: WarnLineW
@@ -1263,6 +1211,34 @@ entities:
           1764: 8,-4
       - node:
           color: '#D381C996'
+          id: BrickTileSteelInnerNw
+        decals:
+          61: 0,-4
+          90: 11,-14
+          101: 8,-3
+          102: 5,-3
+          1528: 5,-12
+          1532: 13,-6
+          1539: 13,-4
+          1557: 30,-4
+          1559: 31,-3
+          1560: 41,-3
+          1602: 31,-7
+          1603: 41,-7
+          1614: 34,-1
+          1627: 38,0
+          1662: 33,4
+          1677: 37,-9
+          1834: 34,-4
+          1835: 36,-4
+          1836: 38,-4
+          1837: 40,-4
+          1963: -4,-9
+          1983: 1,-9
+          1986: 5,-8
+          1987: 4,-9
+      - node:
+          color: '#D381C996'
           id: BrickTileSteelEndE
         decals:
           1588: 42,-1
@@ -1319,6 +1295,14 @@ entities:
           1531: 12,-6
           1586: 30,-1
           1587: 30,-7
+      - node:
+          color: '#D381C996'
+          id: BrickTileSteelEndN
+        decals:
+          1621: 38,1
+          1622: 34,1
+          1949: -6,-7
+          1996: 11,-12
       - node:
           angle: 6.283185307179586 rad
           color: '#D4D4D428'
@@ -4093,7 +4077,7 @@ entities:
           4: 7
         -13,2:
           0: 368
-          9: 512
+          5: 512
           4: 64655
         -15,3:
           24: 61440
@@ -5980,8 +5964,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 20.04244
-        - 75.39776
+        - 19.481253
+        - 73.28662
         - 0
         - 0
         - 0
@@ -6054,6 +6038,21 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
+        - 17.89022
+        - 67.30131
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      - volume: 2500
+        temperature: 293.15
+        moles:
         - 18.405577
         - 69.24003
         - 0
@@ -6071,21 +6070,6 @@ entities:
         moles:
         - 18.935778
         - 71.2346
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      - volume: 2500
-        temperature: 293.15
-        moles:
-        - 19.481253
-        - 73.28662
         - 0
         - 0
         - 0
@@ -6159,8 +6143,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 20.03478
-        - 75.368935
+        - 19.473806
+        - 73.258606
         - 0
         - 0
         - 0
@@ -6189,8 +6173,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 19.470243
-        - 73.24522
+        - 18.925077
+        - 71.19435
         - 0
         - 0
         - 0
@@ -6204,8 +6188,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 19.473806
-        - 73.258606
+        - 18.92854
+        - 71.20737
         - 0
         - 0
         - 0
@@ -6279,8 +6263,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 20.03478
-        - 75.36894
+        - 19.473806
+        - 73.25861
         - 0
         - 0
         - 0
@@ -6339,8 +6323,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 19.473804
-        - 73.25861
+        - 18.928537
+        - 71.207375
         - 0
         - 0
         - 0
@@ -6519,8 +6503,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 17.698357
-        - 66.57953
+        - 17.202803
+        - 64.7153
         - 0
         - 0
         - 0
@@ -6594,8 +6578,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 19.257904
-        - 72.4464
+        - 18.718683
+        - 70.41791
         - 0
         - 0
         - 0
@@ -6609,8 +6593,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 18.194561
-        - 68.446205
+        - 17.685114
+        - 66.52971
         - 0
         - 0
         - 0
@@ -6699,8 +6683,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 19.207338
-        - 72.25619
+        - 18.669533
+        - 70.23302
         - 0
         - 0
         - 0
@@ -6714,8 +6698,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 19.20734
-        - 72.25619
+        - 18.669535
+        - 70.23302
         - 0
         - 0
         - 0
@@ -6729,8 +6713,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 16.445688
-        - 61.86712
+        - 15.9852085
+        - 60.13484
         - 0
         - 0
         - 0
@@ -6804,8 +6788,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 16.44569
-        - 61.86712
+        - 15.98521
+        - 60.13484
         - 0
         - 0
         - 0
@@ -6894,38 +6878,38 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 18.194557
-        - 68.446205
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      - volume: 2500
-        temperature: 293.15
-        moles:
-        - 17.684187
-        - 66.52622
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      - volume: 2500
-        temperature: 293.15
-        moles:
-        - 17.685114
+        - 17.68511
         - 66.52971
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      - volume: 2500
+        temperature: 293.15
+        moles:
+        - 17.18903
+        - 64.66349
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      - volume: 2500
+        temperature: 293.15
+        moles:
+        - 17.18993
+        - 64.66688
         - 0
         - 0
         - 0
@@ -6984,8 +6968,8 @@ entities:
       - volume: 2500
         temperature: 293.15
         moles:
-        - 18.194565
-        - 68.4462
+        - 17.685118
+        - 66.5297
         - 0
         - 0
         - 0
@@ -7290,7 +7274,7 @@ entities:
     type: Occluder
   - canCollide: False
     type: Physics
-  - SecondsUntilStateChange: -5931.8027
+  - SecondsUntilStateChange: -6317.3745
     state: Closing
     type: Door
   - airBlocked: False
@@ -9585,7 +9569,7 @@ entities:
   - devices:
     - 9705
     - 9846
-    - 9847
+    - invalid
     - 9845
     - 9704
     - 9844
@@ -10763,7 +10747,7 @@ entities:
     type: Occluder
   - canCollide: False
     type: Physics
-  - SecondsUntilStateChange: -5931.8027
+  - SecondsUntilStateChange: -6317.3745
     state: Closing
     type: Door
   - airBlocked: False
@@ -10787,7 +10771,7 @@ entities:
     type: Occluder
   - canCollide: False
     type: Physics
-  - SecondsUntilStateChange: -5931.8027
+  - SecondsUntilStateChange: -6317.3745
     state: Closing
     type: Door
   - airBlocked: False
@@ -11469,9 +11453,9 @@ entities:
     parent: 1
     type: Transform
 - uid: 622
-  type: WaterVaporCanister
+  type: ReinforcedPlasmaWindow
   components:
-  - pos: 11.5,8.500002
+  - pos: 10.5,6.5
     parent: 1
     type: Transform
 - uid: 623
@@ -11493,7 +11477,7 @@ entities:
     parent: 1
     type: Transform
 - uid: 626
-  type: CableApcExtension
+  type: WallReinforced
   components:
   - pos: 11.5,6.5
     parent: 1
@@ -13260,9 +13244,9 @@ entities:
     parent: 1
     type: Transform
 - uid: 887
-  type: Grille
+  type: WallReinforced
   components:
-  - pos: 12.5,7.5
+  - pos: 12.5,8.5
     parent: 1
     type: Transform
 - uid: 888
@@ -13311,9 +13295,9 @@ entities:
     parent: 1
     type: Transform
 - uid: 894
-  type: WaterVaporCanister
+  type: Grille
   components:
-  - pos: 11.5,7.5
+  - pos: 7.5,9.5
     parent: 1
     type: Transform
 - uid: 895
@@ -13362,9 +13346,9 @@ entities:
     parent: 1
     type: Transform
 - uid: 902
-  type: StorageCanister
+  type: Grille
   components:
-  - pos: 11.5,6.5
+  - pos: 7.5,8.5
     parent: 1
     type: Transform
 - uid: 903
@@ -13416,19 +13400,19 @@ entities:
 - uid: 909
   type: WallReinforced
   components:
-  - pos: 7.5,6.5
+  - pos: 6.5,10.5
     parent: 1
     type: Transform
 - uid: 910
-  type: ReinforcedPlasmaWindow
+  type: WallReinforced
   components:
-  - pos: 9.5,7.5
+  - pos: 7.5,6.5
     parent: 1
     type: Transform
 - uid: 911
   type: WallReinforced
   components:
-  - pos: 9.5,6.5
+  - pos: 12.5,7.5
     parent: 1
     type: Transform
 - uid: 912
@@ -13440,7 +13424,7 @@ entities:
 - uid: 913
   type: WallReinforced
   components:
-  - pos: 5.5,10.5
+  - pos: 11.5,7.5
     parent: 1
     type: Transform
 - uid: 914
@@ -13458,25 +13442,26 @@ entities:
 - uid: 916
   type: WallReinforced
   components:
-  - pos: 9.5,10.5
+  - pos: 11.5,8.5
     parent: 1
     type: Transform
 - uid: 917
-  type: Grille
+  type: ReinforcedPlasmaWindow
   components:
-  - pos: 9.5,7.5
+  - pos: 7.5,9.5
     parent: 1
     type: Transform
 - uid: 918
-  type: Grille
+  type: WindoorScienceLocked
   components:
-  - pos: 9.5,8.5
+  - pos: 9.5,6.5
     parent: 1
     type: Transform
 - uid: 919
-  type: Grille
+  type: WindoorScienceLocked
   components:
-  - pos: 9.5,9.5
+  - rot: 3.141592653589793 rad
+    pos: 9.5,6.5
     parent: 1
     type: Transform
 - uid: 920
@@ -13516,9 +13501,10 @@ entities:
     parent: 1
     type: Transform
 - uid: 926
-  type: Grille
+  type: WindoorScienceLocked
   components:
-  - pos: 12.5,8.5
+  - rot: 3.141592653589793 rad
+    pos: 5.5,6.5
     parent: 1
     type: Transform
 - uid: 927
@@ -13528,9 +13514,9 @@ entities:
     parent: 1
     type: Transform
 - uid: 928
-  type: ReinforcedWindow
+  type: WindoorScienceLocked
   components:
-  - pos: 12.5,8.5
+  - pos: 5.5,6.5
     parent: 1
     type: Transform
 - uid: 929
@@ -13540,11 +13526,20 @@ entities:
     parent: 1
     type: Transform
 - uid: 930
-  type: ReinforcedWindow
+  type: BlastDoor
   components:
-  - pos: 12.5,7.5
+  - pos: 9.5,10.5
     parent: 1
     type: Transform
+  - inputs:
+      Open:
+      - port: On
+        uid: 950
+      Close:
+      - port: Off
+        uid: 950
+      Toggle: []
+    type: SignalReceiver
 - uid: 931
   type: ReinforcedWindow
   components:
@@ -13654,20 +13649,19 @@ entities:
     parent: 1
     type: Transform
 - uid: 947
-  type: BlastDoorExterior1
+  type: SignalSwitch
   components:
-  - pos: 6.5,10.5
+  - pos: 7.5,6.5
     parent: 1
     type: Transform
-  - inputs:
-      Open:
-      - port: On
-        uid: 991
-      Close:
-      - port: Off
-        uid: 991
-      Toggle: []
-    type: SignalReceiver
+  - outputs:
+      On:
+      - port: Open
+        uid: 961
+      Off:
+      - port: Close
+        uid: 961
+    type: SignalTransmitter
 - uid: 948
   type: AirAlarm
   components:
@@ -13704,54 +13698,59 @@ entities:
     parent: 1
     type: Transform
 - uid: 950
-  type: GasPassiveVent
+  type: SignalSwitch
   components:
-  - pos: 8.5,7.5
+  - pos: 11.5,6.5
     parent: 1
     type: Transform
+  - outputs:
+      On:
+      - port: Open
+        uid: 930
+      Off:
+      - port: Close
+        uid: 930
+    type: SignalTransmitter
 - uid: 951
-  type: GasOutletInjector
+  type: Grille
+  components:
+  - pos: 10.5,6.5
+    parent: 1
+    type: Transform
+- uid: 952
+  type: ReinforcedPlasmaWindow
   components:
   - pos: 7.5,7.5
     parent: 1
     type: Transform
-- uid: 952
-  type: GasPipeStraight
+- uid: 953
+  type: Grille
   components:
-  - pos: 7.5,6.5
+  - pos: 7.5,7.5
     parent: 1
     type: Transform
-- uid: 953
-  type: GasPipeStraight
+- uid: 954
+  type: ReinforcedPlasmaWindow
+  components:
+  - pos: 7.5,8.5
+    parent: 1
+    type: Transform
+- uid: 955
+  type: Grille
   components:
   - pos: 8.5,6.5
     parent: 1
     type: Transform
-- uid: 954
-  type: GasPressurePump
-  components:
-  - rot: 3.141592653589793 rad
-    pos: 8.5,5.5
-    parent: 1
-    type: Transform
-- uid: 955
-  type: GasPressurePump
-  components:
-  - pos: 7.5,5.5
-    parent: 1
-    type: Transform
 - uid: 956
-  type: GasPort
+  type: FirelockEdge
   components:
-  - rot: 3.141592653589793 rad
-    pos: 7.5,4.5
+  - pos: 5.5,7.5
     parent: 1
     type: Transform
 - uid: 957
-  type: GasPort
+  type: FirelockEdge
   components:
-  - rot: 3.141592653589793 rad
-    pos: 8.5,4.5
+  - pos: 9.5,7.5
     parent: 1
     type: Transform
 - uid: 958
@@ -13773,30 +13772,30 @@ entities:
     parent: 1
     type: Transform
 - uid: 961
-  type: AirSensor
+  type: BlastDoor
   components:
-  - pos: 7.5,9.5
+  - pos: 5.5,10.5
     parent: 1
     type: Transform
+  - inputs:
+      Open:
+      - port: On
+        uid: 947
+      Close:
+      - port: Off
+        uid: 947
+      Toggle: []
+    type: SignalReceiver
 - uid: 962
-  type: AirAlarm
+  type: ReinforcedPlasmaWindow
   components:
-  - pos: 9.5,6.5
+  - pos: 8.5,6.5
     parent: 1
     type: Transform
-  - devices:
-    - 961
-    type: DeviceList
 - uid: 963
   type: Grille
   components:
   - pos: 4.5,6.5
-    parent: 1
-    type: Transform
-- uid: 964
-  type: Grille
-  components:
-  - pos: 5.5,6.5
     parent: 1
     type: Transform
 - uid: 965
@@ -13805,34 +13804,16 @@ entities:
   - pos: 6.5,6.5
     parent: 1
     type: Transform
-- uid: 966
-  type: ReinforcedPlasmaWindow
-  components:
-  - pos: 9.5,9.5
-    parent: 1
-    type: Transform
 - uid: 967
   type: ReinforcedPlasmaWindow
   components:
   - pos: 4.5,6.5
     parent: 1
     type: Transform
-- uid: 968
-  type: ReinforcedPlasmaWindow
-  components:
-  - pos: 5.5,6.5
-    parent: 1
-    type: Transform
 - uid: 969
   type: ReinforcedPlasmaWindow
   components:
   - pos: 6.5,6.5
-    parent: 1
-    type: Transform
-- uid: 970
-  type: ReinforcedPlasmaWindow
-  components:
-  - pos: 9.5,8.5
     parent: 1
     type: Transform
 - uid: 971
@@ -13848,12 +13829,6 @@ entities:
   - flags: SessionSpecific
     type: MetaData
   - pos: -60.5,-7.5
-    parent: 1
-    type: Transform
-- uid: 973
-  type: AirlockScience
-  components:
-  - pos: 8.5,6.5
     parent: 1
     type: Transform
 - uid: 974
@@ -13902,31 +13877,6 @@ entities:
   - pos: 12.5,3.5
     parent: 1
     type: Transform
-- uid: 981
-  type: GasPort
-  components:
-  - pos: 10.5,5.5
-    parent: 1
-    type: Transform
-- uid: 982
-  type: GasPort
-  components:
-  - pos: 12.5,5.5
-    parent: 1
-    type: Transform
-- uid: 983
-  type: GasPressurePump
-  components:
-  - rot: 3.141592653589793 rad
-    pos: 10.5,4.5
-    parent: 1
-    type: Transform
-- uid: 984
-  type: GasPressurePump
-  components:
-  - pos: 12.5,4.5
-    parent: 1
-    type: Transform
 - uid: 985
   type: GasPipeStraight
   components:
@@ -13969,21 +13919,6 @@ entities:
   - devices:
     - 903
     type: DeviceList
-- uid: 991
-  type: SignalSwitch
-  components:
-  - pos: 7.5,6.5
-    parent: 1
-    type: Transform
-  - outputs:
-      On:
-      - port: Open
-        uid: 947
-      Off:
-      - port: Close
-        uid: 947
-    type: SignalTransmitter
-  - type: ItemCooldown
 - uid: 992
   type: ReinforcedWindow
   components:
@@ -30625,7 +30560,7 @@ entities:
   - pos: -89.5,-7.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -9900.7705
+  - SecondsUntilStateChange: -10286.343
     state: Opening
     type: Door
   - inputs:
@@ -30643,7 +30578,7 @@ entities:
   - pos: -90.5,-7.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -9900.7705
+  - SecondsUntilStateChange: -10286.343
     state: Opening
     type: Door
   - inputs:
@@ -30661,7 +30596,7 @@ entities:
   - pos: -91.5,-7.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -9900.7705
+  - SecondsUntilStateChange: -10286.343
     state: Opening
     type: Door
   - inputs:
@@ -30679,7 +30614,7 @@ entities:
   - pos: -92.5,-7.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -9900.7705
+  - SecondsUntilStateChange: -10286.343
     state: Opening
     type: Door
   - inputs:
@@ -30697,7 +30632,7 @@ entities:
   - pos: -93.5,-7.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -9900.7705
+  - SecondsUntilStateChange: -10286.343
     state: Opening
     type: Door
   - inputs:
@@ -36782,7 +36717,7 @@ entities:
   - pos: -122.5,5.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -9762.004
+  - SecondsUntilStateChange: -10147.576
     state: Closing
     type: Door
   - enabled: False
@@ -37024,7 +36959,7 @@ entities:
   - pos: -122.5,6.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -9762.004
+  - SecondsUntilStateChange: -10147.576
     state: Closing
     type: Door
   - enabled: False
@@ -59051,42 +58986,6 @@ entities:
   - pos: 9.5,4.5
     parent: 1
     type: Transform
-- uid: 7768
-  type: CableApcExtension
-  components:
-  - pos: 10.5,4.5
-    parent: 1
-    type: Transform
-- uid: 7769
-  type: CableApcExtension
-  components:
-  - pos: 8.5,7.5
-    parent: 1
-    type: Transform
-- uid: 7770
-  type: CableApcExtension
-  components:
-  - pos: 8.5,8.5
-    parent: 1
-    type: Transform
-- uid: 7771
-  type: CableApcExtension
-  components:
-  - pos: 8.5,9.5
-    parent: 1
-    type: Transform
-- uid: 7772
-  type: CableApcExtension
-  components:
-  - pos: 7.5,9.5
-    parent: 1
-    type: Transform
-- uid: 7773
-  type: CableApcExtension
-  components:
-  - pos: 8.5,6.5
-    parent: 1
-    type: Transform
 - uid: 7774
   type: CableApcExtension
   components:
@@ -61594,13 +61493,6 @@ entities:
     pos: 4.5,3.5
     parent: 1
     type: Transform
-- uid: 8083
-  type: ExtinguisherCabinetFilled
-  components:
-  - rot: 3.141592653589793 rad
-    pos: 11.5,9.5
-    parent: 1
-    type: Transform
 - uid: 8084
   type: ExtinguisherCabinetFilled
   components:
@@ -61636,12 +61528,6 @@ entities:
   components:
   - rot: 3.141592653589793 rad
     pos: -2.5,-9.5
-    parent: 1
-    type: Transform
-- uid: 8089
-  type: ClosetEmergencyFilledRandom
-  components:
-  - pos: 10.5,9.5
     parent: 1
     type: Transform
 - uid: 8090
@@ -76458,13 +76344,6 @@ entities:
     pos: 11.5,3.5
     parent: 1
     type: Transform
-- uid: 9847
-  type: Firelock
-  components:
-  - rot: 3.141592653589793 rad
-    pos: 8.5,6.5
-    parent: 1
-    type: Transform
 - uid: 9848
   type: FirelockGlass
   components:
@@ -87857,7 +87736,7 @@ entities:
 - uid: 11493
   type: Multitool
   components:
-  - pos: 5.4555326,3.4152346
+  - pos: 5.4105,3.4276586
     parent: 1
     type: Transform
 - uid: 11494
@@ -99568,7 +99447,7 @@ entities:
   - pos: -58.5,3.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -14723.884
+  - SecondsUntilStateChange: -15109.456
     state: Opening
     type: Door
   - inputs:
@@ -99586,7 +99465,7 @@ entities:
   - pos: -57.5,3.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -14723.884
+  - SecondsUntilStateChange: -15109.456
     state: Opening
     type: Door
   - inputs:
@@ -99604,7 +99483,7 @@ entities:
   - pos: -56.5,3.5
     parent: 1
     type: Transform
-  - SecondsUntilStateChange: -14723.884
+  - SecondsUntilStateChange: -15109.456
     state: Opening
     type: Door
   - inputs:
@@ -101581,15 +101460,6 @@ entities:
   - pos: -107.553986,13.433147
     parent: 1
     type: Transform
-- uid: 13614
-  type: PoweredSmallLight
-  components:
-  - rot: 3.141592653589793 rad
-    pos: 7.5,7.5
-    parent: 1
-    type: Transform
-  - powerLoad: 0
-    type: ApcPowerReceiver
 - uid: 13615
   type: PoweredSmallLight
   components:
