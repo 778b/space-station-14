@@ -8160,9 +8160,6 @@ entities:
     currentSupply: 9724.961
     supplyRampPosition: 4.921875
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 129
   type: Windoor
   components:
@@ -8179,9 +8176,6 @@ entities:
     currentReceiving: 5245.099
     currentSupply: 5245
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 131
   type: WindoorHydroponicsLocked
   components:
@@ -9048,9 +9042,6 @@ entities:
     currentSupply: 3140
     supplyRampPosition: 0.06567383
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 253
   type: Grille
   components:
@@ -10338,9 +10329,6 @@ entities:
     currentReceiving: 585.0023
     currentSupply: 585
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 440
   type: Stool
   components:
@@ -10570,9 +10558,6 @@ entities:
     currentReceiving: 21435.086
     currentSupply: 21429.93
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 476
   type: GasPipeStraight
   components:
@@ -10862,9 +10847,6 @@ entities:
     currentSupply: 3130
     supplyRampPosition: 3130
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 523
   type: WallReinforced
   components:
@@ -11291,9 +11273,6 @@ entities:
     currentSupply: 10000
     supplyRampPosition: 10000
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 571
   type: WallReinforced
   components:
@@ -11593,9 +11572,6 @@ entities:
     currentSupply: 4570
     supplyRampPosition: 4570
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 618
   type: VendingMachineCoffee
   components:
@@ -12079,9 +12055,6 @@ entities:
     currentSupply: 4615
     supplyRampPosition: 4615
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 693
   type: ReinforcedWindow
   components:
@@ -12903,9 +12876,6 @@ entities:
     currentSupply: 3555
     supplyRampPosition: 3555.0002
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 809
   type: CableMV
   components:
@@ -15122,9 +15092,6 @@ entities:
     currentSupply: 6365
     supplyRampPosition: 0.052734375
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 1120
   type: CableMV
   components:
@@ -19231,9 +19198,6 @@ entities:
     currentSupply: 755
     supplyRampPosition: 0.07513428
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 1736
   type: CableMV
   components:
@@ -21445,9 +21409,6 @@ entities:
     currentReceiving: 5775.023
     currentSupply: 5775.023
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2024
   type: WardrobeSecurityFilled
   components:
@@ -22001,9 +21962,6 @@ entities:
     currentReceiving: 490.08008
     currentSupply: 490
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2115
   type: APCBasic
   components:
@@ -22015,9 +21973,6 @@ entities:
     currentSupply: 7055
     supplyRampPosition: 0.05029297
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2116
   type: CableHV
   components:
@@ -22101,9 +22056,6 @@ entities:
     currentSupply: 11449.967
     supplyRampPosition: 4.919922
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2129
   type: TintedWindow
   components:
@@ -22134,9 +22086,6 @@ entities:
     currentSupply: 8075
     supplyRampPosition: 0.045898438
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2133
   type: APCBasic
   components:
@@ -22148,9 +22097,6 @@ entities:
     currentReceiving: 6990.028
     currentSupply: 6990
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2134
   type: CableMV
   components:
@@ -22455,9 +22401,6 @@ entities:
     currentReceiving: 1845.0073
     currentSupply: 1845
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2184
   type: Grille
   components:
@@ -24382,9 +24325,6 @@ entities:
     currentSupply: 1940
     supplyRampPosition: 0.0703125
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2476
   type: APCBasic
   components:
@@ -24395,9 +24335,6 @@ entities:
     currentReceiving: 1990.086
     currentSupply: 1990
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2477
   type: CableMV
   components:
@@ -26974,9 +26911,6 @@ entities:
     currentReceiving: 3540.0142
     currentSupply: 3540.0142
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2879
   type: CableHV
   components:
@@ -27048,9 +26982,6 @@ entities:
     currentReceiving: 3540.0142
     currentSupply: 3540.0142
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2890
   type: CableMV
   components:
@@ -27128,9 +27059,6 @@ entities:
     currentReceiving: 3540.0142
     currentSupply: 3540
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 2902
   type: CableApcExtension
   components:
@@ -29155,9 +29083,6 @@ entities:
     currentSupply: 3905
     supplyRampPosition: 0.06274414
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 3210
   type: CableMV
   components:
@@ -30136,9 +30061,6 @@ entities:
     currentSupply: 15769.984
     supplyRampPosition: 4.921875
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 3370
   type: CableMV
   components:
@@ -30270,9 +30192,6 @@ entities:
     currentReceiving: 2200.087
     currentSupply: 2200
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 3391
   type: APCBasic
   components:
@@ -30284,9 +30203,6 @@ entities:
     currentSupply: 3335
     supplyRampPosition: 0.064941406
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 3392
   type: APCBasic
   components:
@@ -30298,9 +30214,6 @@ entities:
     currentReceiving: 3240.013
     currentSupply: 3240
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 3393
   type: CableMV
   components:
@@ -34444,9 +34357,6 @@ entities:
     currentReceiving: 3645.0144
     currentSupply: 3641.03
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4026
   type: WallReinforced
   components:
@@ -35389,9 +35299,6 @@ entities:
     currentReceiving: 3641.03
     currentSupply: 3641
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4175
   type: DisposalUnit
   components:
@@ -38683,9 +38590,6 @@ entities:
     currentSupply: 1535
     supplyRampPosition: 0.072021484
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4642
   type: CableMV
   components:
@@ -38966,9 +38870,6 @@ entities:
     currentSupply: 18798.074
     supplyRampPosition: 18798.074
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4685
   type: APCBasic
   components:
@@ -38980,9 +38881,6 @@ entities:
     currentReceiving: 3030.012
     currentSupply: 3030
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4686
   type: CableMV
   components:
@@ -39097,9 +38995,6 @@ entities:
     currentReceiving: 5355.0215
     currentSupply: 5349.8647
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4704
   type: WallReinforced
   components:
@@ -39202,9 +39097,6 @@ entities:
     currentSupply: 18798.074
     supplyRampPosition: 18798.074
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4720
   type: CableHV
   components:
@@ -39642,9 +39534,6 @@ entities:
     currentSupply: 18798.074
     supplyRampPosition: 18798.074
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4790
   type: CableTerminal
   components:
@@ -39948,9 +39837,6 @@ entities:
     currentSupply: 18798.074
     supplyRampPosition: 18798.074
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4838
   type: WallReinforced
   components:
@@ -40209,9 +40095,6 @@ entities:
     currentSupply: 18798.074
     supplyRampPosition: 18798.074
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 4880
   type: Grille
   components:
@@ -44059,9 +43942,6 @@ entities:
     currentSupply: 500
     supplyRampPosition: 0.07611084
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 5459
   type: WallReinforced
   components:
@@ -50325,9 +50205,6 @@ entities:
     currentReceiving: 285.00113
     currentSupply: 285
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 6385
   type: CableMV
   components:
@@ -52398,9 +52275,6 @@ entities:
     currentSupply: 30
     supplyRampPosition: -0.000118255615
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 6692
   type: TableReinforced
   components:
@@ -52645,9 +52519,6 @@ entities:
     currentReceiving: 1545.0061
     currentSupply: 1545
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 6728
   type: GasPressurePump
   components:
@@ -52721,9 +52592,6 @@ entities:
     currentSupply: 3541
     supplyRampPosition: 0.048339844
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 6739
   type: APCBasic
   components:
@@ -52735,9 +52603,6 @@ entities:
     currentSupply: 1730
     supplyRampPosition: 0.07116699
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 6740
   type: CableMV
   components:
@@ -52803,9 +52668,6 @@ entities:
     currentReceiving: 1387.0367
     currentSupply: 1387
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 6750
   type: SubstationBasic
   components:
@@ -52816,9 +52678,6 @@ entities:
     currentReceiving: 6690.0264
     currentSupply: 6687.917
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 6751
   type: CableHV
   components:
@@ -55648,9 +55507,6 @@ entities:
     currentSupply: 5450
     supplyRampPosition: 0.056640625
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 7196
   type: CableMV
   components:
@@ -70520,9 +70376,6 @@ entities:
     pos: -74.5,-2.5
     parent: 1
     type: Transform
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 9095
   type: AirSensor
   components:
@@ -75171,9 +75024,6 @@ entities:
   - pos: 13.5,-1.5
     parent: 1
     type: Transform
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 9677
   type: GasVentScrubber
   components:
@@ -78326,9 +78176,6 @@ entities:
     currentSupply: 60.000237
     supplyRampPosition: 16.666601
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 10077
   type: WallReinforced
   components:
@@ -78453,9 +78300,6 @@ entities:
     currentSupply: 45.00018
     supplyRampPosition: 15.000061
     type: PowerNetworkBattery
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 10096
   type: ReinforcedPlasmaWindow
   components:
@@ -78516,9 +78360,6 @@ entities:
     currentReceiving: 45.00018
     currentSupply: 45.00018
     type: PowerNetworkBattery
-  - autoRechargeRate: 2000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 10105
   type: Catwalk
   components:
@@ -78587,9 +78428,6 @@ entities:
     currentSupply: 45
     supplyRampPosition: -0.00017929077
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 10115
   type: WallReinforced
   components:
@@ -79720,9 +79558,6 @@ entities:
     currentReceiving: 10620.042
     currentSupply: 10620
     type: PowerNetworkBattery
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 10296
   type: CableHV
   components:
@@ -80515,9 +80350,6 @@ entities:
     currentReceiving: 10620.042
     currentSupply: 10620.042
     type: PowerNetworkBattery
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 10418
   type: CableMV
   components:
@@ -86157,9 +85989,6 @@ entities:
     pos: -136.5,-24.5
     parent: 1
     type: Transform
-  - autoRechargeRate: 50000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 11198
   type: CableApcExtension
   components:
@@ -86332,18 +86161,12 @@ entities:
   - pos: -133.5,-21.5
     parent: 1
     type: Transform
-  - autoRechargeRate: 2500000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 11225
   type: SMESBasic
   components:
   - pos: -133.5,-22.5
     parent: 1
     type: Transform
-  - autoRechargeRate: 8000000
-    autoRecharge: True
-    type: BatterySelfRecharger
 - uid: 11226
   type: GeneratorPlasma
   components:
